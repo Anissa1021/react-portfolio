@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B3C8CF;
+    padding: 0 15px 0 25px;
+    height: 10vh;
+}
+
+header nav {
+    display: flex;
+    align-self: flex-end;
+}
+
+header nav * {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 115%;
+    height: auto;
+}
+
+header nav *:hover {
+    color: #F8EDE3
+}
+
+main {
+    background-color: #F6F5F2;
+    border: 10px solid #F6F5F2;
+    min-height: 85vh;
+}
+
+section.page {
+    padding: 15px;
+    display: flex;
+}
+
+h1 {
+    font-size: 45px;
+    padding: 10px;
+}
+
+h2.title {
+    white-space: nowrap;
+    padding: 10px;
+    border-right: 5px solid #B3C8CF;
+}
+
+.about-main {
+    padding: 10px;
+}
+
+.about p {
+  font-size: 125%;
+}
+
+.currents {
+    line-height: 25px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-left: 1px solid black;
+}
+
+.currents p {
+    padding-left: 10px;
+}
+
+.portfolio-main {
+    height: auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1 1 0;
+}
+
+.project {
+    margin: 3%;
+    position: sticky;
+}
+
+.project img {
+    width: 100vh;
+    height: 400px;
+}
+
+.project .info {
+    background-color: black;
+    position: absolute;
+    height: 65px;
+    width: 100vh;
+    color: white;
+    left: 0;
+    bottom: 0;
+}
+
+.project .info h3 {
+    padding-left: 5px;
+    font-size: 35px;
+}
+
+.project .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.info a {
+    color: white;
+    padding: 5px;
+}
+
+.info a:hover {
+    color: #B3C8CF
+}
+
+.contact form {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.contact input {
+  padding: 5px;
+}
+
+.contact button {
+  padding: 5px;
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+}
+
+.resume a{
+    margin: 10px;
+    font-size: 200%;
+}
+
+.skills {
+    padding: 10px;
+    line-height: 25px;
+}
+
+.bar {
+    background-color: white;
+    border: 3px solid black;
+    width: 300px;
+    height: 20px;
+}
+
+footer {
+    background-color: #B3C8CF;
+    display: flex;
+    justify-content: center;
+    height: 7vh
+}
+
+footer a {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
